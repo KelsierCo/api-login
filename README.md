@@ -2,7 +2,7 @@
 
 API procesa un login con gestion de base de datos de forma sencilla y estructurado, confirmacion de correo y recuperacion de contraseña.
 
-##📌 Características
+## 📌 Características
 
   - CRUD de usuarios
   - Autenticacion usuarios
