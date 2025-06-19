@@ -1,0 +1,32 @@
+{
+  "name": "usuarios",
+  "version": "1.0.0",
+  "description": "api de usuarios para un desarrollo de microservicios",
+  "keywords": [
+    "ES"
+  ],
+  "license": "ISC",
+  "author": "KelsierCo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --env-file=.env index.js",
+    "test": "node --env-file=.env --experimental-vm-modules ./node_modules/jest/bin/jest.js --detectOpenHandles"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^7.0.3",
+    "nodemon": "^3.1.10",
+    "pg": "^8.15.6"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.21",
+    "jest": "^30.0.0",
+    "supertest": "^7.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
