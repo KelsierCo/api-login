@@ -10,7 +10,7 @@ loginRouter.post('/recovery', fetchSendPasswordRecovery)
 
 loginRouter.post('/reset-password', verifyTokenRecovery, fetchPasswordRecovery)
 
-loginRouter.post('/emailConfirm', fetchSendConfirmEmail)
+loginRouter.post('/email-confirm', fetchSendConfirmEmail)
 
 loginRouter.post('/confirm', verifyTokenRecovery, fetchConfirmEmail)
 

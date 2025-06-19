@@ -1,4 +1,3 @@
-// middlewares/notFoundHandler.js
 import ApiError from '../utils/ApiError.js';
 
 function notFoundHandler(req, res, next) {
